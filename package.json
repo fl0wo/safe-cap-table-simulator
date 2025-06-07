@@ -1,0 +1,28 @@
+{
+  "name": "safe-cap-table-simulator",
+  "version": "1.0.0",
+  "description": "Cap table simulator with SAFE visualizations",
+  "main": "main.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm main.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "startup",
+    "equity",
+    "cap-table",
+    "safe",
+    "visualization"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "canvas": "^3.1.0"
+  }
+}

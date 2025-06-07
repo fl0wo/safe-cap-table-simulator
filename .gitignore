@@ -1,0 +1,5 @@
+node_modules
+equity-dilution.png
+*.idea
+CLAUDE.md
+package-lock.json
