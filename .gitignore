@@ -3,3 +3,5 @@ equity-dilution.png
 *.idea
 CLAUDE.md
 package-lock.json
+
+examples/bluvo/**

@@ -15,7 +15,7 @@ const c = new Company({
 // Simulate equity events
 c
   .giveEquity(5, 'Investor 1')
-  .signSafe('uncapped', 100_000, 'Investor 1', 20) // Uncapped SAFE with 20% discount
+  .signSafe('uncapped', 100_000, 'Investor 1', 0, "post-money") // Uncapped SAFE with 20% discount
   .signSafe(5_000_000, 150_000, 'Investor 2', 10, 'post-money') // Post-money SAFE with $4.5M cap and 10% discount
   .pricedRound(5_000_000, 1_000_000, 'Seed Round') // Seed round at $5M pre-money
   .pricedRound(40_000_000, 11_000_000, 'Series A') // Series A at $10M pre-money
